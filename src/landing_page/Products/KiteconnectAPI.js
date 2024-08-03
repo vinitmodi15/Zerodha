@@ -1,6 +1,6 @@
 import React from "react";
 
-function RightSection({
+function KiteconnectAPI({
   image,
   productName,
   productDescription,
@@ -8,17 +8,17 @@ function RightSection({
   LinkName,
 }) {
   return (
-    <div className="container mt-5   " >
+    <div className="container mt-5"  >
       <div className="row">
-        <div className="col-4 mt-5 p-5 " style={{marginLeft:"5%"}}>
-          <h4 style={{marginTop:"6rem"}}>{productName}</h4>
-          <p >{productDescription}</p>
+        <div className="col-4 mt-5" style={{marginLeft:"5%"}}>
+          <h4 >{productName}</h4>
+          <p className="mt-4">{productDescription}</p>
           <a href="link" >
             {LinkName}
           </a>
         </div>
         <div className="col-1"></div>
-        <div className="col-6 "  >
+        <div className="col-6"style={{marginLeft:"25px"}}  >
           <img src={image} />
         </div>
       </div>
@@ -26,4 +26,4 @@ function RightSection({
   );
 }
 
-export default RightSection;
+export default KiteconnectAPI;

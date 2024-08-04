@@ -9,7 +9,7 @@ function Team() {
       <div className="row">
         <div className="col-6 mt-3 mb-5">
           <img
-            src="media/images/VINIT-JDATAI21004.jpg"
+            src="media/images/Vinit yellow.png"
             alt="Vinit Modi"
             style={{
               height: "25rem",

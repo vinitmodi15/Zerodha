@@ -3,6 +3,7 @@ import Hero from "./Hero";
 import LeftSection from "./LeftSection";
 import RightSection from "./RightSection";
 import KiteconnectAPI from "./KiteconnectAPI";
+import Universe from "./Universe";
 
 function Products() {
   return (
@@ -17,6 +18,10 @@ function Products() {
       <KiteconnectAPI image="media/images/kiteconnect.png" productName="Kite Connect API" productDescription="Build powerful trading platforms and experiences with our super simple HTTP/JSON APIs. If you are a startup, build your investment app and showcase it to our clientbase." link="" LinkName="Kite Connect →"/>
       
       <LeftSection image="media/images/varsity.png" productName="Varsity mobile" productDescription="An easy to grasp, collection of stock market lessons with in-depth coverage and illustrations. Content is broken down into bite-size cards to help you learn on the go." tryDemo="" learnMore="" googlePlay="" appleStore=""/>
+
+      <p className="text-center mb-5">Want to know more about our technology stack? Check out the Zerodha.tech blog.</p>
+
+      <Universe />
     </>
   );
 }
